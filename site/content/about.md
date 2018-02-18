@@ -1,8 +1,8 @@
-+++
-date = "2016-09-09T10:15:23-04:00"
-draft = false
-title = "about"
+---
+title: "Index"
+date: 2017-11-19T17:38:09-06:00
+draft: false
+description: "Hello worldz!"
+---
 
-+++
-
-## This is where our page Markdown content lives.
+this is the about page.
