@@ -23,6 +23,11 @@ window.onload = function() {
         var lat = position.coords.latitude;
         var lon = position.coords.longitude;
         var pCoords = {"latitude":41.137934, "longitude":-95.987340};
+
+        var coordsElem = document.getElementById('currentCoords');
+        if (coordsElem != undefined) {
+            coordsElem.innerHTML = '<span>Latitude: ' + lat + ", Longitude: " + lon + "</span>";
+        }
         console.log("Current location: " + position.coords.latitude + ", " + position.coords.longitude);
         
         for (var loc in meetings) {
