@@ -2,6 +2,8 @@
     <h1>layouts ListPage</h1>
     {{.Content}}
 
-    {{ singularize "people" }}
+    {{ range .Pages }}
+        <h3><a href="{{.URL}}">{{.Title}}</a></h3>
+    {{end}}
 
 {{end}}

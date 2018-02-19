@@ -1,0 +1,22 @@
+{{ define "scripts" }}
+    <script type="text/javascript" src="{{ .Site.BaseURL }}js/meetings.js"></script>
+    <script src="{{ .Site.BaseURL }}js/test.js"></script>
+{{end}}
+
+{{ define "main" }}
+    <h1>layouts AA Project page</h1>
+    
+    <form>
+        <div class="form-group">
+            <button type="button" class="btn btn-primary">Find closest meeting</button>
+            <small class="form-text text-muted">Will prompt for permissions to use your location.</small>
+        </div>
+        <input class="form-control" type="text" />
+
+    </form>
+    
+    {{.Content}}
+
+    
+
+{{end}}
