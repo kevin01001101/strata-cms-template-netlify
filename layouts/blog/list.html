@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+    <div class="container">
+    <div class="row">
+    <div class="col" style="background-color:antiquewhite;">
+
+    {{ range .Pages }}
+
+        <h1>{{.Title}}</h1>
+
+    {{end}}
+
+    </div>
+    </div>
+    </div>
+
+{{end}}
