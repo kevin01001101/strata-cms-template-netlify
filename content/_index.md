@@ -10,3 +10,5 @@ I am a software developer and computer enthusiast.  I'm also a father, husband a
 
 I have been working with computers for almost 30 years and I'm still awed and inspired by the endless possibilities they enable.  I love a challenge and am always looking for fresh opportunities.
 
+TODO: LinkedIn, GitHub, Twitter?
+{{< linkedin >}}
