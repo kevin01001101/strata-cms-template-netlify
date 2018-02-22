@@ -1,11 +1,32 @@
 
 {{ define "main" }}
 
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
     <div id="main" class="container">
         <div class="row">
             <div class="jumbotron">
-                {{ .Content }}
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                        <h1>Hello, world!</h1>
+
+                        <p>I am a software developer and computer enthusiast.  I'm also a father, husband and armed forces veteran.  I enjoy running, video games, movies and jigsaw puzzles.</p>
+                        
+                        <p>I have been working with computers for almost 30 years and I'm still awed and inspired by the endless possibilities they enable.  I love a challenge and am always looking for fresh opportunities.</p>                
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="LI-profile-badge mb-3" data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="kevin-milam-94223511"><a class="LI-simple-link" style="font-size:1.4rem;" href='https://www.linkedin.com/in/kevin-milam-94223511?trk=profile-badge'>My LinkedIn Profile</a></div>
+                        <a href="https://github.com/kevin01001101" style="font-size:1.4rem;">
+                            <img src="/img/Octocat.png" style="height:64px; padding-right:0.6rem;vertical-align:bottom;" alt="GitHub Octocat" title="My GitHub Repos">My GitHub Repos
+                        </a>
+    
+                    </div>
+                                        
+                </div>
             </div>
         </div>
     </div>
+
+
+    
 {{end}}
